@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
-import UseVideos from "../hooks/UseVidos";
+import UseVideos from "../hooks/useVideos";
 
 
 const App = () => {
