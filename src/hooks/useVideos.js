@@ -3,7 +3,7 @@ import youtube from "../apis/youtube";
 
 //this is a custom hook
 
-const UseVidoes = (defaultSearchTerm) => {
+const UseVideos = (defaultSearchTerm) => {
      const [videos, setVideos] = useState([])
 
       useEffect(()=>{
@@ -23,4 +23,4 @@ const UseVidoes = (defaultSearchTerm) => {
   return [videos, search] // exporting this into the App.js module
 }
 
-export default UseVidoes
+export default UseVideos
